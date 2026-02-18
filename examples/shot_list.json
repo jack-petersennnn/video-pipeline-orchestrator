@@ -1,0 +1,79 @@
+{
+  "project_id": "prop-2024-oceanview",
+  "project_name": "Ocean View Estates - 1234 Coastal Drive",
+  "video_type": "house_listing",
+  "agent_face_url": "https://storage.arclight.example.com/agents/sarah-chen-headshot.jpg",
+  "webhook_url": "https://app.arclight.example.com/api/webhooks/pipeline",
+  "output_format": "mp4",
+  "output_resolution": "1280x720",
+  "shots": [
+    {
+      "shot_id": "shot-001-exterior",
+      "type": "scene",
+      "prompt": "Stunning modern beachfront home exterior, white stucco walls, floor-to-ceiling windows, palm trees, golden hour lighting, aerial drone perspective, professional real estate photography, 8K",
+      "negative_prompt": "people, cars, clutter, low quality, blurry",
+      "duration_sec": 4.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "shot_id": "shot-002-presenter-intro",
+      "type": "presenter",
+      "prompt": "Professional female real estate agent standing in a luxury home foyer, warm smile, business casual attire, marble floor, grand staircase background, soft natural lighting, professional portrait",
+      "duration_sec": 6.0,
+      "voice_audio_url": "https://storage.arclight.example.com/tts/prop-2024-oceanview/intro-narration.mp3",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "shot_id": "shot-003-kitchen",
+      "type": "scene",
+      "prompt": "Spacious gourmet kitchen with white marble island, stainless steel appliances, pendant lights, ocean view through large windows, bright natural light, professional interior photography",
+      "duration_sec": 5.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "shot_id": "shot-004-living-room",
+      "type": "scene",
+      "prompt": "Open concept living room with panoramic ocean views, modern furniture, hardwood floors, vaulted ceilings, natural daylight streaming in, luxury coastal interior design",
+      "duration_sec": 5.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "shot_id": "shot-005-presenter-features",
+      "type": "presenter",
+      "prompt": "Professional female real estate agent gesturing while speaking in a bright modern living room, ocean visible through windows behind, confident expression, professional attire",
+      "duration_sec": 8.0,
+      "voice_audio_url": "https://storage.arclight.example.com/tts/prop-2024-oceanview/features-narration.mp3",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "shot_id": "shot-006-master-bedroom",
+      "type": "scene",
+      "prompt": "Luxurious master bedroom with ocean view, king bed with white linens, private balcony visible, soft ambient lighting, coastal modern design, high-end finishes",
+      "duration_sec": 4.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "shot_id": "shot-007-pool",
+      "type": "scene",
+      "prompt": "Stunning infinity pool overlooking the ocean, modern outdoor lounge area, tropical landscaping, sunset lighting, luxury resort style, drone aerial view",
+      "duration_sec": 5.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "shot_id": "shot-008-presenter-closing",
+      "type": "presenter",
+      "prompt": "Professional female real estate agent on outdoor patio with ocean sunset background, warm inviting expression, speaking directly to camera, golden hour lighting",
+      "duration_sec": 6.0,
+      "voice_audio_url": "https://storage.arclight.example.com/tts/prop-2024-oceanview/closing-narration.mp3",
+      "width": 1280,
+      "height": 720
+    }
+  ]
+}
